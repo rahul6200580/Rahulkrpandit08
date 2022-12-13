@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index in html</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(0, 204, 255);
+        }
+
+        ul {
+            background-color: green;
+            padding: 10px;
+            margin: 0px;
+            border-radius: 10px;
+
+        }
+        p{
+          justify-content: center;
+            }
+
+        ul li {
+            text-decoration: none;
+            display: inline;
+            border: 1px solid green;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            margin: 30px;
+            font-weight: bold;
+
+        }
+
+        li a:hover {
+            background-color: green;
+        }
+
+
+
+        div {
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+
+        body {
+            font-family: poppins;
+            margin: 0;
+            display: grid;
+            font-size: 14px;
+        }
+
+        . {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            margin-top: 10%;
+            width: 100%;
+            padding: 100px 15%;
+            background-color: #333;
+            color: #efefef;
+            display: flex;
+            color: black;
+            height: 180px;
+        }
+        .footer div h3 {
+            font-weight: 100;
+            letter-spacing: 1px;
+
+        }
+
+        .col-1 a {
+            display: block;
+            text-decoration: none;
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+
+        form input {
+            width: 400px;
+            height: 45px;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 20px;
+            /* margin-bottom: 40px; */
+            /* outline: none; */
+            border: none;
+        }
+
+        form button {
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 30px;
+            padding: 10 30px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .button {
+            font-weight: bold;
+            /* font-size: larger; */
+            color: black;
+            background-color: white;
+            position: fixed;
+        }
+
+        div img h1 {
+            text-shadow: #333;
+            text-align: left;
+            font-weight: bold;
+            text-transform: none;
+            /* flex-direction: column; */
+
+        }
+        [1:01 PM, 12/12/2022] Akarsh Bhai polytecnic: <nav>
+        <div id="tt">
+          <img src="image/Untitled_4-removebg-preview.png" alt="logo" srcset="">
+
+          
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+           <li><a href="order.html">ORDER</a></li>
+           <li><a href="about.html">ABOUT</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+           
+   
+           
+        </ul>
+     </nav>
+[1:02 PM, 12/12/2022] Akarsh Bhai polytecnic: nav{
+  display: flex;
+  height: 90px;
+  width: 100%;
+  background-color: black ;
+  align-items: center;
+  justify-content:space-around;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+ 
+  
+
+  
+}
+
+nav .logo{
+   
+  
+  
+  
+}
+
+
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 5px 15px;
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
+  
+
+  
+  
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: cyan;
+  background: black;
+  flex-direction: column;
+  
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+
+}
+
+
+
+input[type="checkbox"]{
+  display: none;
+  
+}
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+    flex-direction: column;
+    
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+
+    
+  }
+  #click:checked ~ ul{
+    left: 0;
+    
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+    
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+    
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: cyan;
+    
+  }
+  
+}
+    </style>
+</head>
+
+<body>
+    <h1>Government polytecnic college Bhagalpur,Bihar</h1>
+    <nav>
+       
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+       
+        <ul>
+          <li><a href="https://gpbgp.org/index.php">Home</a></li>
+           <li><a href="https://gpbgp.org/aboutus.php">About Us</a></li>
+           <li><a href="https://gpbgp.org/aboutus.php#">Departments</a></li>
+           <li><a href="https://gpbgp.org/aboutus.php#">Students</a></li>
+           <li><a href="https://gpbgp.org/aboutus.php#">Training & Placement</a></li>
+           <li><a href="https://gpbgp.org/aicte.php">AICTE</a></li>
+           <li><a href="https://gpbgp.org/aicte.php#">Login</a></li>
+
+        </ul>
+     </nav>
+    <h2>Department of Science and Technology, Government of Bihar, <br>
+        Affiliated to State Board of Technical Education, Bihar, Patna, <br>
+        Established 1955, <br>
+        Barari, Bhagalpur, Bihar 812003</h2>
+   <br><br>
+    <div class="image">
+        <img src="ri.jpg" alt="college" width="100%" height="500px">
+    </div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, facilis aliquid unde quam error alias assumenda ipsam dicta quae tenetur porro vel est illo repellat minus delectus eum et perspiciatis. Amet hic quas incidunt repudiandae voluptatem. Officiis consequatur illum nam similique reprehenderit quasi. Suscipit quis ex laborum minima perferendis iste facilis natus quisquam magni, harum delectus debitis non illum consectetur provident dolorum vel! Iusto dolore reprehenderit repudiandae molestias voluptatibus, pariatur nisi deleniti sed impedit deserunt blanditiis aliquid soluta. Reiciendis esse nisi expedita? Ducimus vitae maxime iusto delectus aliquid, consequatur illum aliquam earum veniam enim. Quaerat, nesciunt facere? Nam, sapiente iusto. Molestiae, suscipit ex ea aliquam quisquam laudantium ab distinctio repudiandae iusto earum architecto, enim aliquid? Quod, eligendi doloribus quo magnam dolorum perferendis neque quasi tempore perspiciatis voluptas placeat temporibus quam cumque expedita suscipit repudiandae illum blanditiis corporis dignissimos rerum necessitatibus soluta, et pariatur ad! Eligendi molestias quo quasi praesentium laboriosam debitis esse ipsa aperiam nulla exercitationem iusto porro placeat tempora, ullam architecto, saepe rem illum fugiat obcaecati laudantium quia autem iure nostrum quis. Suscipit, omnis ea. Perferendis repudiandae beatae quod, dolor placeat a facere porro, consectetur odio tempore praesentium fuga reiciendis expedita ratione quae ipsum modi, deserunt culpa! Veniam pariatur, ducimus voluptate quidem sequi sit placeat at optio, necessitatibus fuga quod esse voluptates rerum! Eum at tenetur aut deleniti omnis, vero harum aliquid perspiciatis iusto autem ab veniam nostrum optio sed aperiam voluptas quia laboriosam id, beatae accusantium sequi non repellat ex quam! Fugiat eaque id veniam soluta. Architecto fugit ipsa ut inventore saepe. Nostrum laudantium dolor voluptate dolorum laborum minima, quia qui eveniet iusto illo doloremque? Laboriosam molestias sunt ipsum atque incidunt neque, inventore fuga ut magni beatae, autem pariatur! Optio commodi inventore suscipit nostrum, illo assumenda voluptatum, eum vitae asperiores consequuntur quod! Rerum nemo nobis laboriosam quod natus consequuntur et quaerat asperiores deserunt nesciunt. Autem, veniam repellendus reprehenderit molestias corporis iusto totam ducimus magni impedit nobis! Optio, sit illo! Omnis debitis fugiat neque eaque atque, perspiciatis dolores cumque aut tempore magnam temporibus quae. Porro ab excepturi, delectus saepe commodi, beatae aperiam nam corporis nihil similique voluptate id repellendus exercitationem natus nobis expedita corrupti. Minus pariatur tenetur cupiditate quis illum minima, deserunt impedit tempore, at ab incidunt quia excepturi veniam ipsam obcaecati exercitationem esse quibusdam? Quis nemo quas molestias sed ratione ipsa repellat sequi mollitia! Accusamus totam ipsum architecto ab iste cum nam, modi labore, debitis illum eius assumenda distinctio, commodi ipsa rem eligendi aliquam quidem fugiat. Nulla, nihil soluta. Quis nihil fugiat iusto, maiores praesentium incidunt maxime beatae non tempora modi accusamus possimus quas nam, vero blanditiis perspiciatis quisquam soluta? Nesciunt laudantium nisi voluptas voluptate excepturi, minus, magni cumque laboriosam dolores voluptatibus, eos reprehenderit deleniti doloremque debitis at perferendis. Ex, nostrum! Quam impedit sequi consectetur neque quia earum, laudantium delectus et necessitatibus labore fugit? Pariatur sequi dolore quaerat officia quidem magnam velit cum odio enim autem ut amet repellat accusamus voluptatibus iste blanditiis maiores facere, reiciendis minima voluptatem. Ex laudantium officiis, cum velit doloremque consectetur aperiam? Pariatur, sit enim! Eveniet assumenda repudiandae praesentium unde nesciunt optio sunt quisquam magni repellendus molestias asperiores exercitationem, natus facere dolorum mollitia eos inventore, modi iusto culpa blanditiis impedit? Repudiandae ut optio, dicta illo et suscipit eius quasi inventore aliquid illum molestias non similique iste quas, itaque architecto. Placeat, at a non nostrum voluptas aspernatur repudiandae natus numquam nihil? Commodi, aperiam praesentium maiores, vero rerum perspiciatis ea vitae incidunt eos non itaque esse necessitatibus. Id quae ad repudiandae eaque commodi veritatis vitae, accusamus ab, nostrum aliquam tempore maxime asperiores incidunt perspiciatis beatae sunt consectetur porro mollitia modi distinctio reiciendis? Error nemo repellat rerum at quas itaque voluptatem, minima iste voluptatum possimus, minus unde ut cum eligendi reiciendis sint sunt velit eum accusamus dolorem dignissimos non eius? Aliquam quos quod deserunt. Cupiditate consectetur earum consequuntur neque saepe fuga quos, mollitia quae deserunt exercitationem? Doloremque distinctio soluta expedita non incidunt sint a provident, debitis laudantium, deserunt cum odit facere illum perspiciatis optio assumenda nihil commodi iste accusantium consequatur harum velit explicabo officiis. Perferendis est doloribus ad. Earum sapiente obcaecati sunt explicabo, molestiae nemo illo, porro esse ad veritatis aspernatur blanditiis ipsa assumenda natus? Qui aliquid neque officiis fuga doloremque molestias suscipit necessitatibus quaerat quis voluptatum.</p>
+     <div class="footer">
+        <div class="col-1">
+            <h3>Quick Link</h3>
+            <a href="https://bceceboard.bihar.gov.in/index.php">BCECEB</a>
+            <a href="http://sbteonline.in/">Semester Exam Result </a>
+            <a href="https://www.sbtebihar.gov.in//WISDetails.htm">Student Qustion Bank</a>
+            <a href="https://www.sbtebihar.gov.in//syllabus.htm">Notice Archives</a>
+            <a href="http://dst.bih.nic.in/">DST Bihar</a>
+            <a href="javascript:void(0)">Online Fee Payment</a>
+            <a href="javascript:void(0)">Gallery</a>
+        </div>
+        <div class="col-1">
+            <h3>Useful Link for Student</h3>
+            <a href="https://www.aicte-india.org/about-us/history">AICTE</a>
+            <a href="https://skillmissionbihar.org/">Bihar Skill Development</a>
+            <a href="https://skillmissionbihar.org/">Mission (BSDM)</a>
+            <a href="http://mhrdnats.gov.in/students">National Apprenticeship</a>
+            <a href="https://nptel.ac.in/">Training Scheme</a>
+            <a href="https://www.g20.in/en/">National Creear srvice</a>
+            <a href="https://nptel.ac.in/">NPTEL</a>
+            <a href="https://sbtebihar.gov.in//default.htm">S.B.T.E.Patna</a>
+        </div>
+        <div class="col-1">
+            <h3>Contact Us</h3>
+            <a href="#">Government polytecnic Bhagalpur,Brari,<br> Bhagalpur 8012003 Bihar,<br> Contact: 6200580619</a>
+            <a href="#">Whatsapp Link</a>
+
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
